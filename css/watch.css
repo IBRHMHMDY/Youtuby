@@ -1,0 +1,68 @@
+.card:hover{
+    transform: translateY(0%) !important;
+}
+.card .card-text {
+    overflow: visible;
+}
+.watch-page .watch-icons {
+    position: absolute;
+    bottom: 6px;
+    right: 20px;
+}
+.watch-icons i:hover{
+    cursor: pointer;
+}
+
+.watch-page #more{
+    display: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+
+.card-inner{
+    display: none;
+}
+
+time {
+    left: 24px !important;
+}
+.watch-page .fa-play{
+     right: 46% !important;
+     top: 40% !important;
+}
+
+.public-comments .card .btn{
+    background-color: #bf40bf;
+    border-color: #bf40bf;
+    color: #fff;
+} 
+.public-comments .card .btn:hover{
+    background-color: #b915b9;
+}
+@media (max-width: 1062px){
+    #btnShow {
+        margin-bottom: 60px !important;
+        display: block;
+    }
+
+}
+@media (min-width: 1062px){
+    #btnShow {
+        margin-top: 2% !important;
+        margin-bottom: 2% !important;
+        display: block;
+    }
+}
+@media (max-width: 991px){
+    .card-block {
+        margin-bottom: 60px !important;
+        display: block;
+    }
+    #btnShow {
+        margin-top: 2% !important;
+        margin-bottom: 2% !important;
+        display: block;
+    }
+}
+

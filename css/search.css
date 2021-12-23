@@ -1,0 +1,29 @@
+#search-filters-icon{
+    cursor: pointer;
+}
+.search-header .filter-column{
+    display: none;
+}
+.filter-column span:hover{
+    color: #bf40bf;
+    cursor: pointer;
+}
+input:checked+span{
+    color: #bf40bf;
+}
+
+.card .card-horizontal .card-body p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-body{
+    min-width: 0;
+}
+
+@media(min-width:768px) and (max-width:992px){
+    .card .card-horizontal .card-body .channel-img{
+        display: block;
+        margin-top: 10px;
+    }
+}
